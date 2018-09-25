@@ -1,0 +1,98 @@
+@import url('comment_insert.css');
+.comment-wrapper{
+	border: 1px solid #e1e1e1;
+	color:#444;
+
+}
+h3.comment-title{
+	font-size: 14px;
+	height: 40px;
+	line-height: 37px;
+	color: #555;
+	font-weight: bold;
+	margin: 0px 5px 0px 5px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.comment-list{
+	font-size: 14px;
+	line-height: 37px;
+	color: #555;
+	font-weight: bold;
+	margin: 10px 5px 10px 5px;
+	height: auto; 
+	width: auto;	
+}
+ul.comments-holder-ul{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px; 
+	width: auto;
+	height: auto;
+	overflow: hidden;
+
+}
+li.comment-holder{
+	list-style-type: none;
+	background: #FAFAFA;
+	height: auto;
+	margin: 5px 0px 0px 0px;
+	border:1px solid #e1e1e1;
+	overflow: ;
+	position: relative;
+}
+li.comment-holder:hover{
+	background-color: #F3F5F5;
+}
+li.comment-holder:hover .comment-bottons-holder{
+	display: block;
+}
+.user-img:hover{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #D5D5D5
+} 
+ .username-field{
+	line-height: 20px;
+	color: #69A3D6;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 5px 0px 0px 0px;
+	width: auto;
+}
+.comment-text{
+	font-size: 11px;
+	line-height: 17px;
+}
+.comment-body{
+	padding:0px 5px 0px 0px;
+}
+.comment-bottons-holder{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 20px;
+	display: none;
+}
+.comment-bottons-holder ul{
+	list-style-type: none;
+	height: auto;
+	widows: auto;
+	overflow: hidden;
+}
+.comment-bottons-holder ul li{
+	float: right;
+	height: 23px;
+	width: 22px;
+	background-color: #FC5F5F;
+	line-height: 10px;
+	color:white;
+	text-align: center;
+	padding:5px 10px 10px 5px;
+	border-radius: 0px;
+	cursor: pointer;
+}
+.comment-bottons-holder ul li:hover{
+	color:#fff;
+	background-color: #AA1A1A
+}
